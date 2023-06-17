@@ -1,0 +1,38 @@
+.page5-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    font-size: 24px;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .page5-text {
+    top: 3450px;
+    left: 18px;
+    color: #ff6500;
+    position: absolute;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  .page5-text2 {
+    color: #ff6500;
+  }
+  .page5-text3 {
+    top: 3490px;
+    left: 18px;
+    color: #01614e;
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  .page5-image {
+    top: 3580px;
+    left: 34px;
+    width: 1342px;
+    height: 149px;
+    position: absolute;
+    object-fit: cover;
+  }
+  

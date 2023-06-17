@@ -1,0 +1,650 @@
+.Card {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 10% auto;
+  background-color: #f2f7ff;
+  border: transparent;
+}
+
+.Card div {
+  border: none;
+}
+
+.image Button:hover {
+  background-color: red;
+}
+
+.image p {
+  padding: 0 0.5rem;
+  margin: 0;
+}
+
+.upload-btn {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 20px;
+  width: 10rem;
+  height: 3rem;
+  color: white;
+  background-color: green;
+}
+
+.image1 {
+  padding: 0;
+  margin: 0;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  margin: 1rem 0.5rem;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.image Button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: lightcoral;
+}
+
+.input1 {
+  display: none;
+}
+
+.image1 {
+  padding: 0;
+  margin: 0;
+}
+
+.label1 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted black;
+  border-radius: 20px;
+  width: 10rem;
+  height: 10rem;
+  cursor: pointer;
+  font-size: large;
+}
+
+.label1>span {
+  font-weight: lighter;
+  font-size: small;
+  padding-top: 0.5rem;
+}
+
+.label1:hover,
+.upload-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.error {
+  text-align: center;
+}
+
+.error span {
+  color: red;
+}
+
+.basic {
+  top: 352px;
+  left: 172px;
+  width: 288px;
+  height: 70px;
+  position: absolute;
+  border: dashed 2px #01614e;
+  border-radius: 8px;
+}
+
+.gallery {
+  top: 470px;
+  left: 172px;
+  width: 288px;
+  height: 70px;
+  position: absolute;
+  border: dashed 2px #01614e;
+  border-radius: 8px;
+}
+
+.address {
+  top: 582px;
+  left: 172px;
+  width: 288px;
+  height: 70px;
+  position: absolute;
+  border: dashed 2px #01614e;
+  border-radius: 8px;
+}
+
+.feature {
+  top: 700px;
+  left: 172px;
+  width: 288px;
+  height: 70px;
+  position: absolute;
+  border: dashed 2px #01614e;
+  border-radius: 8px;
+}
+
+.detail {
+  top: 820px;
+  left: 172px;
+  width: 288px;
+  height: 70px;
+  position: absolute;
+  border: dashed 2px #01614e;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.page8-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 130vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.page8-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.page8-textinput {
+  top: 555px;
+  right: 80px;
+  width: 288px;
+  height: 34px;
+  position: absolute;
+  border-radius: 8px;
+  border: solid 1px black;
+}
+
+.page8-textarea {
+  top: 671px;
+  left: 580px;
+  width: 624px;
+  height: 101px;
+  position: absolute;
+  border-radius: 8px;
+  border: solid 1px black;
+}
+
+.page8-textinput1 {
+  top: 367px;
+  left: 580px;
+  width: 288px;
+  height: 34px;
+  position: absolute;
+  border-radius: 8px;
+  border: solid 1px black;
+}
+
+.page8-select {
+  top: 461px;
+  right: 80px;
+  width: 288px;
+  height: 34px;
+  position: absolute;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.page8-textinput2 {
+  top: 555px;
+  left: 580px;
+  width: 288px;
+  position: absolute;
+  border-radius: 8px;
+  border: solid 1px black;
+  height: 34px;
+}
+
+.page8-select1 {
+  top: 461px;
+  left: 580px;
+  width: 288px;
+  height: 34px;
+  position: absolute;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.page8-text {
+  top: 633px;
+  left: 552px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.page8-text02 {
+  top: 523px;
+  left: 552px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.page8-text04 {
+  top: 433px;
+  left: 552px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.page8-text06 {
+  top: 527px;
+  left: 888px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.page8-text08 {
+  top: 435px;
+  left: 888px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.page8-text10 {
+  top: 331px;
+  left: 552px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.page8-text12 {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.page8-button {
+  top: 470px;
+  left: 172px;
+  width: 288px;
+  height: 70px;
+  position: absolute;
+  box-shadow: 10px 10px 15px 5px #d4d4d4;
+  border-width: 0px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("./info2.JPG");
+}
+
+.page8-button1 {
+  top: 820px;
+  left: 172px;
+  width: 288px;
+  height: 70px;
+  position: absolute;
+  box-shadow: 10px 10px 15px 5px #d4d4d4;
+  border-width: 0px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("./info5.JPG");
+}
+
+.page8-button2 {
+  top: 352px;
+  left: 172px;
+  width: 288px;
+  height: 70px;
+  position: absolute;
+  box-shadow: 10px 10px 15px 5px #d4d4d4;
+  border-width: 0px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("./info.JPG");
+}
+
+.page8-text13 {
+  top: 129px;
+  left: 70px;
+  color: white;
+  position: absolute;
+}
+
+.page8-button3 {
+  top: 582px;
+  left: 172px;
+  width: 288px;
+  height: 70px;
+  position: absolute;
+  box-shadow: 10px 10px 15px 5px #d4d4d4;
+  border-width: 0px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("./info3.JPG");
+}
+
+.page8-button4 {
+  top: 700px;
+  left: 172px;
+  width: 288px;
+  height: 70px;
+  position: absolute;
+  box-shadow: 10px 10px 15px 5px #d4d4d4;
+  border-width: 0px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("./info4.JPG");
+}
+
+
+.textinput {
+  top: 509px;
+  right: 64px;
+  width: 288px;
+  height: 34px;
+  position: absolute;
+  border: solid 1px black;
+  border-radius: 8px;
+}
+
+.textinput1 {
+  top: 631px;
+  left: 580px;
+  width: 288px;
+  height: 34px;
+  position: absolute;
+  border: solid 1px black;
+  border-radius: 8px;
+}
+
+.textinput2 {
+  top: 367px;
+  left: 580px;
+  width: 620px;
+  height: 34px;
+  position: absolute;
+  border: solid 1px black;
+  border-radius: 8px;
+}
+
+.textinput3 {
+  top: 509px;
+  left: 580px;
+  width: 288px;
+  height: 34px;
+  position: absolute;
+  border: solid 1px black;
+  border-radius: 8px;
+}
+
+.text {
+  top: 599px;
+  left: 552px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.text2 {
+  top: 476px;
+  left: 552px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.text3 {
+  top: 469px;
+  left: 876px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.text5 {
+  top: 331px;
+  left: 552px;
+  position: absolute;
+  font-size: 14px;
+}
+
+.buttons {
+  top: 606px;
+  left: 524px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-width: 0px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("./pet.JPG");
+}
+
+.button1 {
+  top: 399px;
+  left: 768px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-width: 0px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("./furnished.JPG");
+}
+
+.button2 {
+  top: 600px;
+  right: 40px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-width: 0px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("./mailbox.JPG");
+}
+
+.button3 {
+  top: 400px;
+  right: 40px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-width: 0px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("./parking.JPG");
+}
+
+.button4 {
+  top: 602px;
+  left: 768px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-width: 0px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("./cityview.JPG");
+}
+
+.button5 {
+  top: 399px;
+  left: 524px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  border-width: 0px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("./cooling.JPG");
+}
+
+.dtextinput {
+  top: 542px;
+  left: 570px;
+  width: 288px;
+  height: 34px;
+  position: absolute;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.dtextinput1 {
+  top: 673px;
+  left: 570px;
+  width: 288px;
+  height: 34px;
+  position: absolute;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.dtextinput2 {
+  top: 424px;
+  left: 570px;
+  width: 288px;
+  height: 34px;
+  position: absolute;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.dtext {
+  top: 516px;
+  left: 548px;
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dtext02 {
+  top: 647px;
+  left: 548px;
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dcheckbox {
+  top: 782px;
+  left: 548px;
+  position: absolute;
+}
+
+.dtext04 {
+  top: 778px;
+  left: 584px;
+  position: absolute;
+  font-weight: bold;
+}
+
+.dbutton {
+  left: 548px;
+  width: 192px;
+  bottom: 38px;
+  height: 48px;
+  position: absolute;
+  border-color: #fc9803;
+  border-radius: 8px;
+  background-color: #fc9803;
+}
+
+.dtext06 {
+  color: #f7f6f6;
+}
+
+.dtext07 {
+  color: white;
+}
+
+.dtext08 {
+  top: 386px;
+  left: 548px;
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dtext10 {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.pet {
+  top: 606px;
+  left: 524px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  border: dashed 2px #fc9803;
+  border-radius: 8px;
+}
+
+.cool {
+  top: 399px;
+  left: 524px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  border: dashed 2px #fc9803;
+  border-radius: 8px;
+}
+
+.city {
+  top: 602px;
+  left: 768px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  border: dashed 2px #fc9803;
+  border-radius: 8px;
+}
+
+.mail {
+  top: 600px;
+  right: 40px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  border: dashed 2px #fc9803;
+  border-radius: 8px;
+}
+
+.furnish {
+  top: 399px;
+  left: 768px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  border: dashed 2px #fc9803;
+  border-radius: 8px;
+}
+
+.park {
+  top: 400px;
+  right: 40px;
+  width: 222px;
+  height: 156px;
+  position: absolute;
+  border: dashed 2px #fc9803;
+  border-radius: 8px;
+}
